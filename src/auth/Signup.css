@@ -1,0 +1,90 @@
+/* General container styling */
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f4f4f4, #e0e0e0); /* Subtle gradient background */
+    padding: 20px;
+  }
+  
+  /* Image section styling */
+  .signup-image {
+    flex: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  .signup-image img {
+    max-width: 70%; /* Adjusted size for better fit */
+    height: auto;
+    border-radius: 250px 0 250px 0;  /* Reduced rounding for a more subtle look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+  }
+  
+  /* Form section styling */
+  .signup-form {
+    flex: 1;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px; /* Increased padding for a more spacious look */
+    border-radius: 10px; /* Slightly increased border radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow for prominence */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd; /* Added border for definition */
+  }
+  
+  .signup-form h1 {
+    margin-bottom: 25px;
+    font-size: 24px; /* Larger font size for the heading */
+    color: #333; /* Darker color for better readability */
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 15px; /* Increased padding for a more comfortable feel */
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light gray border for a subtle look */
+    border-radius: 6px; /* Slightly increased border radius */
+    font-size: 16px; /* Increased font size for better readability */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+  }
+  
+  .signup-form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message, .success-message {
+    font-size: 14px; /* Adjusted font size for messages */
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: #d9534f; /* Bootstrap red for errors */
+  }
+  
+  .success-message {
+    color: #5bc0de; /* Bootstrap info color for success messages */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .signup-image img {
+      max-width: 90%; /* Adjust image size for smaller screens */
+    }
+  }

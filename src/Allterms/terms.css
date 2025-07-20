@@ -1,0 +1,73 @@
+/* terms.css */
+
+.termsConditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    line-height: 1.7;
+  }
+  
+  .termsConditions h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #292F36;
+  }
+  
+  .termsConditions h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #CDA274;
+    position: relative;
+  }
+  
+  .termsConditions h3::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #CDA274;
+  }
+  
+  .termsConditions p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .termsConditions ul {
+    margin: 20px 0;
+    padding-left: 40px;
+  }
+  
+  .termsConditions ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .termsConditions {
+      padding: 40px 15px;
+    }
+  
+    .termsConditions h1 {
+      font-size: 28px;
+    }
+  
+    .termsConditions h3 {
+      font-size: 20px;
+    }
+  
+    .termsConditions p,
+    .termsConditions ul li {
+      font-size: 16px;
+    }
+  }
+  

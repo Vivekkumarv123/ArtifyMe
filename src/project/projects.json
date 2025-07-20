@@ -1,0 +1,24 @@
+{
+    "projects": [
+      {
+        "title": "Luxury Bedroom",
+        "category": "Bedroom",
+        "image": "https://algedra.com.tr/assets/imgs/upload2/Algedra%20bedroom%20design%20projects%20blog/uploadelegantbedroominterior_641ecc1e0d2b6.jpg"
+      },
+      {
+        "title": "Classy Bathroom",
+        "category": "Bathroom",
+        "image": "https://assets.architecturaldigest.in/photos/60084b61eebcfd50ede87c2e/16:9/w_2560%2Cc_limit/Ahmedabad-bungalow-HPA-European-design-4-1366x768.jpg"
+      },
+      {
+        "title": "Modern Kitchen",
+        "category": "Kitchen",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ELBbqbAj7onwRYSEsABeILrwp0cb8AMZdg&s"
+      },{
+        "title": "Comfortable Living area",
+        "category": "Living Area",
+        "image": "https://www.architectandinteriorsindia.com/cloud/2021/11/15/Story-5_3-1-scaled.jpg"
+      }
+    ]
+  }
+  

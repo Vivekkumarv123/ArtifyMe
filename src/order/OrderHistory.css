@@ -1,0 +1,45 @@
+.order-history-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .order-history-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-history-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-history-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .order-history-item h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .order-history-item p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .order-history-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-history-item ul li {
+    font-size: 14px;
+    color: #666;
+  }

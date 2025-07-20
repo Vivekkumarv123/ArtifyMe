@@ -1,0 +1,67 @@
+/* cookies.css */
+
+.cookies {
+    font-family: 'Lora', serif; /* Elegant serif font for a refined look */
+    color: #333; /* Dark gray for readability */
+    background-color: #f9f8f7; /* Off-white background for a soft, welcoming feel */
+    padding: 40px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cookies h1 {
+    font-size: 36px;
+    color: #2c3e50; /* Deep, muted blue for the header */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .cookies h2.cookiesTitle {
+    font-size: 28px;
+    color: #8e44ad; /* Accent color for subheadings */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 4px solid #8e44ad; /* Adds a vertical accent bar to the left */
+    padding-left: 12px;
+    font-weight: bold;
+  }
+  
+  .cookies p {
+    font-size: 18px;
+    color: #555; /* Softer gray for the body text */
+    margin-bottom: 20px;
+  }
+  
+  .cookies a {
+    color: #2980b9; /* Blue color for links */
+    text-decoration: none;
+    border-bottom: 1px dotted #2980b9; /* Subtle dotted underline for links */
+  }
+  
+  .cookies a:hover {
+    color: #3498db; /* Slightly lighter blue on hover */
+    border-bottom: 1px solid #3498db; /* Solid underline on hover */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cookies {
+      padding: 20px;
+    }
+  
+    .cookies h1 {
+      font-size: 28px;
+    }
+  
+    .cookies h2.cookiesTitle {
+      font-size: 24px;
+    }
+  
+    .cookies p {
+      font-size: 16px;
+    }
+  }
+  
